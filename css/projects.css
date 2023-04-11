@@ -1,0 +1,41 @@
+.mainProjectsList{
+    position: relative;
+    display: flex;
+    top: 7em;
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.projectsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black 5px solid;
+    width: 100%;
+}
+
+.projectsList > h1{
+    padding-bottom: 40px;
+}

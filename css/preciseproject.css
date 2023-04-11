@@ -1,0 +1,56 @@
+.projectsMain{
+    position: relative;
+    display: flex;
+    top: 7em;
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+.projectsTitle {
+    color: white;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projectImages > figure > img{
+    width: 900px;
+}
+
+.projectImages > figure > figcaption{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.projectImages{
+    display:flex;
+    flex-direction: row;
+}
+
+.projectsDescription{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-left: 35px;
+}
+
+.projectsTechnologies{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-left: 35px;
+}
+
+.projectsLinks{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-left: 35px;
+}
+
+.projectsLinks > a{
+    text-decoration: none;
+    color: white;
+}

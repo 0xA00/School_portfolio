@@ -1,0 +1,96 @@
+.mainAbout{
+    position: relative;
+    display: flex;
+    top: 7em;
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.aboutTitle {
+    color: white;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutContentBoxTitle a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutContent > p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutTitleV2 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.KANYEWEST footer{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.KANYEWEST blockquote{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutContent > p >a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+.myButton {
+    background-color: #ffffff;
+    border-radius:28px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:15px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #575757;
+    margin-bottom: 50px;
+}
+.myButton:hover {
+    background-color: #cfd0cf;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}

@@ -1,0 +1,75 @@
+.mainContact{
+    position: relative;
+    display: flex;
+    top: 7em;
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+    padding-top: 190px;
+    padding-bottom: 300px;
+}
+
+.mainContact > .contactBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contactBox > .contactTitle{
+    color: white;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactContentBoxTitle a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactContentBox img{
+    width: 60px;
+    margin-bottom: -20px;
+}
+
+.contactContentBoxTitle h1{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+.contactContentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contactContentBoxContent{
+    padding-top: 70px;
+}
+
+.myButton {
+    background-color: #ffffff;
+    border-radius:28px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:15px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #575757;
+}
+.myButton:hover {
+    background-color: #cfd0cf;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
